@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+
+}
+body {
+	background:#ffeaea;
+	color:rgb(226, 85, 85);
+	font-family:Arial, helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:#ff5e66;
+	
+}
+
+form {
+	background-color: #ffa8ac;
+	border-radius: 10px;
+	font-family: monospace;
+	color: #fefeff;
+
+	padding: 50px 20px;
+	
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(219, 73, 73);
+	font-family: cursive;
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+	background-color: rgb(255, 208, 208);
+		font-family: monospace;
+		border-radius: 10px;
+		border-color: #fa6666;
+		color: #f15960;
+}
+
+input[type='submit']{
+	background-color: rgb(228, 88, 88);
+	color: rgb(253, 252, 252);
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+footer {
+		
+	background-color: #ffa7ab;
+	padding:10px ;
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer p {
+	text-align:center;
+	margin: 0;
+	color:white;
+}
